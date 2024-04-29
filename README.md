@@ -7,24 +7,22 @@
 
 
 
-<div align="center" >
-    <a href="https://github.com/Geisbelly-vic">
-        <img src="https://github.com/Geisbelly-vic/Curso-de-Figma-2024-02/blob/main/Imagens/Integrante/Group%2033.png" width="230px" alt="Geisbelly"></a>
-    <a href="https://github.com/dy3nd">
-        <img src="https://github.com/Geisbelly-vic/Curso-de-Figma-2024-02/blob/main/Imagens/Integrante/Frame%205.png" width="230px" alt="Lucas"></a>
-    <a href="https://github.com/livaibrr">
-        <img src="https://github.com/Geisbelly-vic/Curso-de-Figma-2024-02/blob/main/Imagens/Integrante/Frame%204.png" width="230px" alt="Levi"></a>
-</div>
+<p align="center" class="github-links">
+<a href="https://github.com/Geisbelly-vic">
+    <img src="https://github.com/Geisbelly-vic/Curso-de-Figma-2024-02/blob/main/Imagens/Integrante/Group%2033.png" width="230px" alt="Geisbelly"></a>
+<a href="https://github.com/dy3nd">
+    <img src="https://github.com/Geisbelly-vic/Curso-de-Figma-2024-02/blob/main/Imagens/Integrante/Frame%205.png" width="230px" alt="Lucas"></a>
+<a href="https://github.com/livaibrr">
+    <img src="https://github.com/Geisbelly-vic/Curso-de-Figma-2024-02/blob/main/Imagens/Integrante/Frame%204.png" width="230px" alt="Levi"></a>
+</p>
 
      
 
 
-<img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" min-width="400px" max-width="400px" width="400px" align="right" alt="Computador iuriCode">
+<img src="https://github.com/Geisbelly-vic/Curso-de-Figma-2024-02/blob/main/Imagens/Group%2028%20(1).png" min-width="700px" max-width="700px" width="700px" align="right" alt="Computador iuriCode">
 
 
 
-&nbsp;
-&nbsp;
 
 
 
