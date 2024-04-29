@@ -1,5 +1,5 @@
 
-<img align="center" style="margin-bottom:100px; object-fit: contain" width=100% src="https://github.com/Geisbelly-vic/Curso-de-Figma-2024-02/blob/main/Imagens/Frame%2026.png" />
+<img align="center" width=100% src="https://github.com/Geisbelly-vic/Curso-de-Figma-2024-02/blob/main/Imagens/Frame%2026%20(1).png" />
 &nbsp;&nbsp;&nbsp;
 
 
