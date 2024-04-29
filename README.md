@@ -9,13 +9,21 @@
 <br>
 <p align="center" class="github-links">
 <a href="https://github.com/Geisbelly-vic">
-    <img src="https://github.com/Geisbelly-vic/Curso-de-Figma-2024-02/blob/main/Imagens/Integrante/Group%2033.png" width="230px" alt="Geisbelly"></a>
+    <img src="https://github.com/Geisbelly-vic/Curso-de-Figma-2024-02/blob/main/Imagens/Integrante/Group%2033.png" width="210px" alt="Geisbelly"></a>
     <img src="https://github.com/Geisbelly-vic/Curso-de-Figma-2024-02/blob/main/Imagens/Integrante/Rectangle%20375.png" width="80px">
 <a href="https://github.com/dy3nd">
-    <img src="https://github.com/Geisbelly-vic/Curso-de-Figma-2024-02/blob/main/Imagens/Integrante/Frame%205.png" width="230px" alt="Lucas"></a>
+    <img src="https://github.com/Geisbelly-vic/Curso-de-Figma-2024-02/blob/main/Imagens/Integrante/Frame%205.png" width="210px" alt="Lucas"></a>
     <img src="https://github.com/Geisbelly-vic/Curso-de-Figma-2024-02/blob/main/Imagens/Integrante/Rectangle%20375.png" width="80px">
 <a href="https://github.com/livaibrr">
-    <img src="https://github.com/Geisbelly-vic/Curso-de-Figma-2024-02/blob/main/Imagens/Integrante/Frame%204.png" width="230px" alt="Levi"></a>
+    <img src="https://github.com/Geisbelly-vic/Curso-de-Figma-2024-02/blob/main/Imagens/Integrante/Frame%204.png" width="210px" alt="Levi"></a>
+</p>
+<p>
+    <img src="https://github.com/Geisbelly-vic/Curso-de-Figma-2024-02/blob/main/Imagens/Integrante/Rectangle%2024%20(1).png" width="170px">
+<a href="https://github.com/Geisbelly-vic">Geisbelly
+    <img src="https://github.com/Geisbelly-vic/Curso-de-Figma-2024-02/blob/main/Imagens/Integrante/Rectangle%2024%20(1).png" width="235px">
+<a href="https://github.com/dy3nd">Lucas
+    <img src="https://github.com/Geisbelly-vic/Curso-de-Figma-2024-02/blob/main/Imagens/Integrante/Rectangle%2024%20(1).png" width="260px">
+<a href="https://github.com/livaibrr">Levi
 </p>
 <br>     
 <h1 align="center">Curso</h1>
