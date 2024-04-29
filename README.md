@@ -5,7 +5,7 @@
 
 <p align="center">Pronto para dar vida aos seus designs? Neste curso vamos explorar do básico ao intermediário do figma para transformar seus projetos em experiências dinâmicas e envolventes. Prepare-se para mergulhar em um mundo de criatividade e inovação!</p>&nbsp;
 
-<h1 align="center">Ministrantes</h1>
+<h1 align="center">MINISTRANTES</h1>
 <br>
 <p align="center" class="github-links">
 <a href="https://github.com/Geisbelly-vic">
@@ -18,7 +18,7 @@
     <img src="https://github.com/Geisbelly-vic/Curso-de-Figma-2024-02/blob/main/Imagens/Integrante/Group%20106.png" width="210px" alt="Levi"></a>
 </p>
 <br>     
-<h1 align="center">Curso</h1>
+<h1 align="center">SOBRE O CURSO</h1>
 <br>
 <p align="center">Bem-vindo ao nosso curso de Figma, uma jornada projetada para guiá-lo do básico ao nível intermediário em design de interfaces de usuário (UI) e experiência do usuário (UX).</p>
 <p align="center"><a href="https://github.com/Geisbelly-vic/Curso-de-Figma-2024-02/tree/main">
@@ -42,7 +42,7 @@
 <h2 align="center">Colaboração e Comunidade</h2>
 <p align="center">Explore os recursos de colaboração do Figma, como compartilhamento de arquivos e comentários, e conecte-se com a comunidade global de designers da plataforma.</p>
 <br>
-<h1 align="center">Material</h1>
+<h1 align="center">MATERIAIS</h1>
 <BR>
 <p align="center" class="github-links">
 <a href="https://www.figma.com/proto/TrsbL0yJsZr7T5POs8L3F5/Slides---Curso-de-Figma?type=design&node-id=1016-532&t=4SqJmoj10XIwfhka-1&scaling=contain&page-id=0%3A1&mode=design">
@@ -60,7 +60,7 @@
 
 <br>
 <br>
-<h1 align="center">YouTube</h1>
+<h1 align="center">YOUTUBE</h1>
 <h3 align="center">Continuação</h2>
 <p align="center"><a href="https://www.youtube.com/channel/UCnqEVsYOKpvv7uOTS5im1yg">
     <img src="https://github.com/Geisbelly-vic/Curso-de-Figma-2024-02/blob/main/Imagens/Frame%2030%20(1).png" width="700px" alt="Geisbelly"></a></p>
