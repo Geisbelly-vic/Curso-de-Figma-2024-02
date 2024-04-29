@@ -21,9 +21,8 @@
 <h1 align="center">Curso</h1>
 <br>
 <p align="center">Bem-vindo ao nosso curso de Figma, uma jornada projetada para guiá-lo do básico ao nível intermediário em design de interfaces de usuário (UI) e experiência do usuário (UX).</p>
-<p align="center"><a href="https://www.youtube.com/channel/UCnqEVsYOKpvv7uOTS5im1yg">
-    <img src="https://github.com/Geisbelly-vic/Curso-de-Figma-2024-02/blob/main/Imagens/Integrante/Group%2033.png" width="230px" alt="Geisbelly"></a></p>
-<br>  
+<p align="center"><a href="https://github.com/Geisbelly-vic/Curso-de-Figma-2024-02/tree/main">
+    <img src="https://github.com/Geisbelly-vic/Curso-de-Figma-2024-02/blob/main/Imagens/Frame%2030%20(2).png" width="700px" alt="Curso_Figma"></a></p>
 
 <h2 align="center">Criação de Conta e Introdução ao Figma</h2>
 <p align="center">Comece sua jornada aprendendo a criar sua conta no Figma e a se familiarizar com a interface da plataforma.</p>
