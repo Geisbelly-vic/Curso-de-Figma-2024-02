@@ -64,7 +64,7 @@
 <h1 align="center">YouTube</h1>
 <h3 align="center">Continuação</h2>
 <p align="center"><a href="https://www.youtube.com/channel/UCnqEVsYOKpvv7uOTS5im1yg">
-    <img src="https://github.com/Geisbelly-vic/Curso-de-Figma-2024-02/blob/main/Imagens/Integrante/Group%2033.png" width="230px" alt="Geisbelly"></a></p>
+    <img src="https://github.com/Geisbelly-vic/Curso-de-Figma-2024-02/blob/main/Imagens/Frame%2030%20(1).png" width="700px" alt="Geisbelly"></a></p>
 <p align="center"><a href="https://www.youtube.com/channel/UCnqEVsYOKpvv7uOTS5im1yg">Acesse ao Canal</a></p>
 <br>
 <p align="center">Além disso, não se esqueça de que estaremos lançando uma série de vídeos no nosso canal do YouTube, com aulas que vão desde os fundamentos até técnicas avançadas, levando você além do intermediário até o nível avançado. Ao concluir este curso, você estará preparado para aplicar suas habilidades em projetos do mundo real e se tornar parte da comunidade de designers que utilizam o Figma como ferramenta principal. Vamos começar esta jornada juntos!</p>  
