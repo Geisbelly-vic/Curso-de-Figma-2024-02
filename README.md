@@ -59,8 +59,8 @@
 
 <br>
 <h1 align="center">YOUTUBE</h1>
-<h3 align="center">Continuação - 01/05</h2>
-<p align="center">No dia 01/05, lançaremos os vídeos no canal</p>
+<h3 align="center">Continuação - 02/05</h2>
+<p align="center">No dia 02/05, lançaremos os vídeos no canal</p>
 <p align="center"><a href="https://www.youtube.com/channel/UCnqEVsYOKpvv7uOTS5im1yg">
     <img src="https://github.com/Geisbelly-vic/Curso-de-Figma-2024-02/blob/main/Imagens/Frame%2030%20(1).png" width="700px" alt="Geisbelly"></a></p>
 <p align="center"><a href="https://www.youtube.com/channel/UCnqEVsYOKpvv7uOTS5im1yg">Acesse ao Canal</a></p>
