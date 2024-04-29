@@ -46,13 +46,13 @@
 <h1 align="center">Material</h1>
 <BR>
 <p align="center" class="github-links">
-<a href="https://github.com/Geisbelly-vic">
+<a href="https://www.figma.com/proto/TrsbL0yJsZr7T5POs8L3F5/Slides---Curso-de-Figma?type=design&node-id=1016-532&t=4SqJmoj10XIwfhka-1&scaling=contain&page-id=0%3A1&mode=design">
     <img src="https://github.com/Geisbelly-vic/Curso-de-Figma-2024-02/blob/main/Imagens/Frame%2028.png" width="200px" alt="Slides"></a>
     <img src="https://github.com/Geisbelly-vic/Curso-de-Figma-2024-02/blob/main/Imagens/Integrante/Rectangle%20375.png" width="80px">
-<a href="https://github.com/dy3nd">
+<a href="https://www.figma.com/proto/rIhu55GF3hGfxozufJoR5N/WhatsApp?type=design&node-id=1-115&t=lCTrLiOsQk06dOhK-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A87">
     <img src="https://github.com/Geisbelly-vic/Curso-de-Figma-2024-02/blob/main/Imagens/Frame%2027.png" width="200px" alt="Protótipo"></a>
     <img src="https://github.com/Geisbelly-vic/Curso-de-Figma-2024-02/blob/main/Imagens/Integrante/Rectangle%20375.png" width="80px">
-<a href="https://github.com/livaibrr">
+<a href="https://github.com/Geisbelly-vic/Curso-de-Figma-2024-02/tree/main/Imagens/M%C3%ADdias">
     <img src="https://github.com/Geisbelly-vic/Curso-de-Figma-2024-02/blob/main/Imagens/Frame%2029.png" width="200px" alt="Midias"></a>
 </p>
 
