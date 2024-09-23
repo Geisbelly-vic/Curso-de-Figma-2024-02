@@ -44,11 +44,12 @@
             position: sticky;
             top: 0;
             z-index: 1000;
+            flex-wrap: wrap;
         }
         nav a {
             color: white;
             text-decoration: none;
-            margin: 0 15px;
+            margin: 5px 15px;
             padding: 8px 15px;
             border-radius: 5px;
             transition: background 0.3s;
@@ -74,7 +75,8 @@
             transform: scale(1.05);
         }
         .youtube img {
-            width: 150px;
+            width: 250px; /* Tamanho médio */
+            max-width: 100%; /* Ajuste para responsividade */
             display: block;
             margin: 20px auto;
         }
@@ -88,6 +90,9 @@
             .profile-img, .material-links img {
                 width: 150px;
             }
+            .youtube img {
+                width: 200px; /* Ajuste para telas menores */
+            }
             .welcome-text {
                 font-size: 0.8rem;
             }
@@ -98,6 +103,10 @@
             }
             nav a {
                 margin: 5px 0;
+            }
+            .welcome-text {
+                padding: 10px;
+                font-size: 0.7rem;
             }
         }
     </style>
@@ -190,7 +199,7 @@
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2024 Curso de Figma. Todos os direitos reservados.</p>
+        <p>© 2024 Curso de Figma</p>
     </footer>
 
 </body>
