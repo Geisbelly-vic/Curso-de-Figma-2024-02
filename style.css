@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #f4f4f9;
+    background-color: #0C131B;
     color: #FFFFFF;
 }
 
@@ -14,96 +14,116 @@ header {
     position: relative;
     text-align: center;
 }
+
 .banner {
     width: 100%;
     height: auto;
     filter: brightness(0.8);
-    margin-bottom: 20px; /* Espaçamento abaixo da imagem */
+    margin-bottom: 20px;
 }
+
 .welcome-text {
-    position: relative; /* Removido o position:absolute */
+    position: relative;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7); /* Escurecido */
     color: white;
     padding: 20px;
     border-radius: 10px;
-    margin: 0 auto; /* Centraliza o texto */
-    max-width: 800px; /* Limita a largura do texto */
+    margin: 20px auto; /* Centraliza */
+    max-width: 800px; /* Limita a largura */
 }
-
 
 .welcome-text h1 {
     font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.welcome-text p {
+    font-size: 1.2rem;
+}
+
+nav {
+    background: #21C063;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 5px 15px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background: #18a052;
 }
 
 section {
+    padding: 20px;
+    margin: 10px;
     text-align: center;
-    padding: 50px 0;
 }
 
-.profiles {
+.profiles, .material-links {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 40px;
-    animation: fadeInUp 2s ease;
 }
 
-.profile-img {
+.profile-img, .material-links img {
     width: 200px;
-    border-radius: 15px;
-    transition: transform 0.3s ease;
+    margin: 10px;
+    transition: transform 0.3s;
 }
 
-.profile-img:hover {
-    transform: scale(1.1);
+.profile-img:hover, .material-links img:hover {
+    transform: scale(1.05);
 }
 
-.sobre-curso h1 {
-    margin-bottom: 20px;
+.youtube img {
+    width: 400px; /* Tamanho médio */
+    max-width: 100%; /* Ajuste para responsividade */
+    display: block;
+    margin: 20px auto;
 }
 
-.course-modules h2 {
-    font-size: 1.8rem;
-    color: #FFFFFF;
-    margin-bottom: 10px;
-    animation: slideInLeft 1s ease;
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #21C063;
+    color: white;
 }
 
-.course-modules p {
-    margin-bottom: 20px;
-    font-size: 1rem;
-    animation: fadeInUp 2s ease;
+@media (max-width: 768px) {
+    .profile-img, .material-links img {
+        width: 150px;
+    }
+
+    .youtube img {
+        width: 200px; /* Ajuste para telas menores */
+    }
+
+    .welcome-text {
+        font-size: 0.8rem;
+    }
 }
 
-.materiais .material-links {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-}
+@media (max-width: 480px) {
+    nav {
+        display: none; /* Oculta o menu de navegação em telas pequenas */
+    }
 
-.material-links a img {
-    width: 200px;
-    transition: transform 0.3s ease;
+    .welcome-text {
+        padding: 10px;
+        font-size: 0.7rem;
+    }
 }
-
-.material-links a img:hover {
-    transform: scale(1.1);
-}
-
-footer img {
-    margin-top: 50px;
-}
-
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
-
-@keyframes fadeInUp {
-    from { opacity: 0; transform: translateY(30px); }
-    to { opacity: 1; transform: translateY(0); }
-}
-
-@keyframes slideDown {
-    from { transform: translateY(-50%); opacity: 0; }
-    to { transform: translateY(0); opacity:
