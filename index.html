@@ -9,33 +9,49 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
-        body {
-            font-family: 'Poppins', sans-serif;
+        * {
             margin: 0;
             padding: 0;
-            line-height: 1.6;
-            background-color: #0C131B;
+            box-sizing: border-box;
         }
-       header {
-    position: relative;
-    text-align: center;
-}
-.banner {
-    width: 100%;
-    height: auto;
-    filter: brightness(0.8);
-    margin-bottom: 20px; /* Espaçamento abaixo da imagem */
-}
-.welcome-text {
-    position: relative; /* Removido o position:absolute */
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    padding: 20px;
-    border-radius: 10px;
-    margin: 0 auto; /* Centraliza o texto */
-    max-width: 800px; /* Limita a largura do texto */
-}
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #0C131B;
+            color: #FFFFFF;
+        }
+
+        header {
+            position: relative;
+            text-align: center;
+        }
+
+        .banner {
+            width: 100%;
+            height: auto;
+            filter: brightness(0.8);
+            margin-bottom: 20px;
+        }
+
+        .welcome-text {
+            position: relative;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.7); /* Escurecido */
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px auto; /* Centraliza */
+            max-width: 800px; /* Limita a largura */
+        }
+
+        .welcome-text h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .welcome-text p {
+            font-size: 1.2rem;
+        }
 
         nav {
             background: #21C063;
@@ -48,6 +64,7 @@
             z-index: 1000;
             flex-wrap: wrap;
         }
+
         nav a {
             color: white;
             text-decoration: none;
@@ -56,53 +73,66 @@
             border-radius: 5px;
             transition: background 0.3s;
         }
+
         nav a:hover {
             background: #18a052;
         }
+
         section {
             padding: 20px;
             margin: 10px;
+            text-align: center;
         }
+
         .profiles, .material-links {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
         }
+
         .profile-img, .material-links img {
             width: 200px;
             margin: 10px;
             transition: transform 0.3s;
         }
+
         .profile-img:hover, .material-links img:hover {
             transform: scale(1.05);
         }
+
         .youtube img {
             width: 400px; /* Tamanho médio */
             max-width: 100%; /* Ajuste para responsividade */
             display: block;
             margin: 20px auto;
         }
+
         footer {
             text-align: center;
             padding: 20px;
             background: #21C063;
             color: white;
         }
+
         @media (max-width: 768px) {
             .profile-img, .material-links img {
                 width: 150px;
             }
+
             .youtube img {
                 width: 200px; /* Ajuste para telas menores */
             }
+
             .welcome-text {
                 font-size: 0.8rem;
             }
         }
+
         @media (max-width: 480px) {
             nav {
                 display: none; /* Oculta o menu de navegação em telas pequenas */
             }
+
             .welcome-text {
                 padding: 10px;
                 font-size: 0.7rem;
@@ -122,13 +152,13 @@
 
     <!-- Header com imagem -->
     <header>
-    <img class="banner" src="https://geisbelly-vic.github.io/Curso-de-Figma-2024-02/Imagens/Frame%2026%20(1).png" alt="Curso de Figma">
-</header>
+        <img class="banner" src="https://geisbelly-vic.github.io/Curso-de-Figma-2024-02/Imagens/Frame%2026%20(1).png" alt="Curso de Figma">
+    </header>
     
-<div class="welcome-text">
-    <h1>Pronto para dar vida aos seus designs?</h1>
-    <p>Neste curso vamos explorar do básico ao intermediário do Figma para transformar seus projetos em experiências dinâmicas e envolventes. Prepare-se para mergulhar em um mundo de criatividade e inovação!</p>
-</div>
+    <div class="welcome-text">
+        <h1>Pronto para dar vida aos seus designs?</h1>
+        <p>Neste curso vamos explorar do básico ao intermediário do Figma para transformar seus projetos em experiências dinâmicas e envolventes. Prepare-se para mergulhar em um mundo de criatividade e inovação!</p>
+    </div>
 
     <!-- Ministrantes -->
     <section id="ministrantes" class="ministrantes">
