@@ -16,25 +16,27 @@
             line-height: 1.6;
             background-color: #0C131B;
         }
-        header {
-            position: relative;
-            text-align: center;
-            color: white;
-        }
-        .banner {
-            width: 100%;
-            height: auto;
-            filter: brightness(0.8);
-        }
-        .welcome-text {
-            position: absolute;
-            top: 20%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            background-color: rgba(0, 0, 0, 0.5);
-            padding: 20px;
-            border-radius: 10px;
-        }
+       header {
+    position: relative;
+    text-align: center;
+}
+.banner {
+    width: 100%;
+    height: auto;
+    filter: brightness(0.8);
+    margin-bottom: 20px; /* Espaçamento abaixo da imagem */
+}
+.welcome-text {
+    position: relative; /* Removido o position:absolute */
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto; /* Centraliza o texto */
+    max-width: 800px; /* Limita a largura do texto */
+}
+
         nav {
             background: #21C063;
             color: white;
@@ -122,6 +124,7 @@
     <header>
     <img class="banner" src="https://geisbelly-vic.github.io/Curso-de-Figma-2024-02/Imagens/Frame%2026%20(1).png" alt="Curso de Figma">
 </header>
+    
 <div class="welcome-text">
     <h1>Pronto para dar vida aos seus designs?</h1>
     <p>Neste curso vamos explorar do básico ao intermediário do Figma para transformar seus projetos em experiências dinâmicas e envolventes. Prepare-se para mergulhar em um mundo de criatividade e inovação!</p>
