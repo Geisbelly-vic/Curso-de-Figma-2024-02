@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    overflow: hidden;
+}
+
+.banner {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    animation: fadeIn 3s ease-in-out;
+}
+
+.welcome-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 15px;
+    animation: slideDown 1s ease-in-out;
+}
+
+.welcome-text h1 {
+    font-size: 2.5rem;
+}
+
+section {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.profiles {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    animation: fadeInUp 2s ease;
+}
+
+.profile-img {
+    width: 200px;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+.profile-img:hover {
+    transform: scale(1.1);
+}
+
+.sobre-curso h1 {
+    margin-bottom: 20px;
+}
+
+.course-modules h2 {
+    font-size: 1.8rem;
+    color: #21C063;
+    margin-bottom: 10px;
+    animation: slideInLeft 1s ease;
+}
+
+.course-modules p {
+    margin-bottom: 20px;
+    font-size: 1rem;
+    animation: fadeInUp 2s ease;
+}
+
+.materiais .material-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.material-links a img {
+    width: 200px;
+    transition: transform 0.3s ease;
+}
+
+.material-links a img:hover {
+    transform: scale(1.1);
+}
+
+footer img {
+    margin-top: 50px;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideDown {
+    from { transform: translateY(-50%); opacity: 0; }
+    to { transform: translateY(0); opacity:
