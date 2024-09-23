@@ -47,7 +47,8 @@ header {
 
 h1, h2 {
     color: #21C063; /* Cor para os títulos */
-    margin-bottom: 20px; /* Espaço abaixo dos títulos */
+    margin-bottom: 10px; /* Espaço abaixo dos títulos */
+    margin-top: 25px;
 }
 
 nav {
