@@ -8,23 +8,9 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: #0C131B; /* Cor de fundo sólida */
     color: #FFFFFF;
-    background-image: url('https://geisbelly-vic.github.io/Curso-de-Figma-2024-02/Imagens/M%C3%ADdias/Fundo.png'); /* URL correta */
-    background-size: cover; /* Para cobrir todo o fundo */
-    background-position: center; /* Para centralizar a imagem */
-    background-repeat: no-repeat; /* Para evitar repetição da imagem */
-    position: relative; /* Necessário para o pseudo-elemento */
+
 }
 
-body::before {
-    content: ""; /* Necessário para criar a camada */
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(12, 19, 27, 0.7); /* Cor de fundo escura com opacidade */
-    z-index: 1; /* Coloca a camada abaixo do texto */
-}
 
 header {
     position: relative;
