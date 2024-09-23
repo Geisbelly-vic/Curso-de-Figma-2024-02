@@ -10,27 +10,25 @@ body {
     color: #FFFFFF;
 }
 
-.banner {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    animation: fadeIn 3s ease-in-out;
-}
-
 header {
     position: relative;
     text-align: center;
-    color: white;
-    padding-top: 60px; /* Adiciona espaço no topo para o menu */
 }
-
+.banner {
+    width: 100%;
+    height: auto;
+    filter: brightness(0.8);
+    margin-bottom: 20px; /* Espaçamento abaixo da imagem */
+}
 .welcome-text {
-    position: relative; /* Remove o posicionamento absoluto */
+    position: relative; /* Removido o position:absolute */
+    text-align: center;
     background-color: rgba(0, 0, 0, 0.5);
+    color: white;
     padding: 20px;
     border-radius: 10px;
-    margin-top: -80px; /* Ajusta a posição do texto para cima */
-    display: inline-block; /* Centraliza o texto */
+    margin: 0 auto; /* Centraliza o texto */
+    max-width: 800px; /* Limita a largura do texto */
 }
 
 
