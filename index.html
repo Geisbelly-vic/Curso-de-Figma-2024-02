@@ -8,8 +8,102 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+        .banner {
+            width: 100%;
+            height: auto;
+        }
+        .welcome-text {
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        nav {
+            background: #333;
+            color: white;
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 8px 15px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        nav a:hover {
+            background: #555;
+        }
+        section {
+            padding: 20px;
+            margin: 10px;
+        }
+        .profiles, .material-links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .profile-img, .material-links img {
+            width: 200px;
+            margin: 10px;
+            transition: transform 0.3s;
+        }
+        .profile-img:hover, .material-links img:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: white;
+        }
+        @media (max-width: 768px) {
+            .profile-img, .material-links img {
+                width: 150px;
+            }
+            .welcome-text {
+                font-size: 0.8rem;
+            }
+        }
+        @media (max-width: 480px) {
+            nav {
+                flex-direction: column;
+            }
+            nav a {
+                margin: 5px 0;
+            }
+        }
+    </style>
 </head>
 <body>
+
+    <!-- Menu de Navegação -->
+    <nav>
+        <a href="#ministrantes">Ministrantes</a>
+        <a href="#sobre-curso">Sobre o Curso</a>
+        <a href="#materiais">Materiais</a>
+        <a href="#youtube">YouTube</a>
+    </nav>
 
     <!-- Header com imagem -->
     <header>
@@ -21,7 +115,7 @@
     </header>
 
     <!-- Ministrantes -->
-    <section class="ministrantes">
+    <section id="ministrantes" class="ministrantes">
         <h1>MINISTRANTES</h1>
         <div class="profiles">
             <a href="https://github.com/Geisbelly-vic">
@@ -37,7 +131,7 @@
     </section>
 
     <!-- Sobre o curso -->
-    <section class="sobre-curso">
+    <section id="sobre-curso" class="sobre-curso">
         <h1>SOBRE O CURSO</h1>
         <p>Bem-vindo ao nosso curso de Figma, uma jornada projetada para guiá-lo do básico ao nível intermediário em design de interfaces de usuário (UI) e experiência do usuário (UX).</p>
 
@@ -63,7 +157,7 @@
     </section>
 
     <!-- Materiais -->
-    <section class="materiais">
+    <section id="materiais" class="materiais">
         <h1>MATERIAIS</h1>
         <div class="material-links">
             <a href="https://www.figma.com/proto/TrsbL0yJsZr7T5POs8L3F5/Slides---Curso-de-Figma?type=design&node-id=1016-532&t=4SqJmoj10XIwfhka-1&scaling=contain&page-id=0%3A1&mode=design">
@@ -79,7 +173,7 @@
     </section>
 
     <!-- YouTube -->
-    <section class="youtube">
+    <section id="youtube" class="youtube">
         <h1>YOUTUBE</h1>
         <p>No dia 02/05, lançaremos os vídeos no canal</p>
         <a href="https://www.youtube.com/channel/UCnqEVsYOKpvv7uOTS5im1yg">
