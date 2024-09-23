@@ -25,7 +25,6 @@ header {
 .welcome-text {
     position: relative;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.7); /* Escurecido */
     color: white;
     padding: 20px;
     border-radius: 10px;
